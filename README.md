@@ -1,6 +1,6 @@
 # 🚀 iOS Journey — Hazem Habeb
 
-Welcome to my public learning journal as I work towards becoming an **iOS Team Lead**.
+Welcome to my public learning journal as I work towards becoming an **iOS Master Engineer**.
 
 Over the next several weeks, I’ll be reviewing and leveling up across four key areas:
 
