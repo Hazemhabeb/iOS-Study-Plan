@@ -20,6 +20,6 @@
 
 ➡️ Start with [Swift Essentials](./Day1/SwiftEssentials.md)
 
-➡️ Then read the [UIKit Foundation Notes](./Day1/UIKitNotes.md)
+➡️ Then read the [UIKit Foundation Notes](./Day1/uikit_foundation.md)
 
 ➡️ Explore and run the [UIKitBasicsDemo project](./Day1/UIKitBasicsDemo/)
