@@ -168,7 +168,4 @@ var score = 0 {
 | Error Handling        | Apply custom error enums for app logic           |
 | Closures              | Use with collections (`map`, `filter`, `reduce`) |
 
----
-
-End of note.
 
