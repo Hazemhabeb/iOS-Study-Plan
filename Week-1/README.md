@@ -12,5 +12,5 @@
 
 - `/Day1` – Swift basics, ARC, and delegation (with notes)
 
-➡️ Start with [Day 1 Notes](./Day1/Notes.md)
+➡️ Start with [Day 1 swift Swift Essentials](./Day1/SwiftEssentials.md)
 
