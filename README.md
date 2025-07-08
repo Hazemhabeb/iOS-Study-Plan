@@ -27,7 +27,7 @@ Each week will include:
 
 | Week | Focus | Notes |
 |------|-------|-------|
-| [Week 1](week1/README.md) | Swift refresh, UIKit basics, DSA fundamentals | Swift closures, ViewController lifecycle, Queue DS |
+| [Week 1](Week-1/README.md) | Swift refresh, UIKit basics, DSA fundamentals | Swift closures, ViewController lifecycle, Queue DS |
 | Week 2 | TableView, CollectionView, Coordinators, Stack & Recursion | Coming soon |
 | Week 3 | SwiftUI + Combine + Architecture | Coming soon |
 | Week 4 | Core Data, Offline, Firebase | Coming soon |
