@@ -153,5 +153,5 @@ override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 
 ## ✅ Summary
 
-This foundational knowledge is critical for any UIKit-based app. Next, refer to `UIKitBasicsDemo/` for practical code using both Storyboard and Programmatic approaches.
+This foundational knowledge is critical for any UIKit-based app. Next, refer to ./UIKitBasicsDemo/ for practical code using both Storyboard and Programmatic approaches.
 
