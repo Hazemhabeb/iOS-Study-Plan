@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FABDD99A2EABF24900E2341A /* QuotesViewe_MVVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesViewe_MVVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FABDD9AA2EABF24A00E2341A /* QuotesViewe_MVVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesViewe_MVVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FABDD9B42EABF24A00E2341A /* QuotesViewe_MVVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesViewe_MVVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABDD99A2EABF24900E2341A /* QuotesViewer_MVVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesViewer_MVVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABDD9AA2EABF24A00E2341A /* QuotesViewer_MVVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesViewer_MVVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABDD9B42EABF24A00E2341A /* QuotesViewer_MVVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesViewer_MVVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		FABDD99B2EABF24900E2341A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FABDD99A2EABF24900E2341A /* QuotesViewe_MVVVM.app */,
-				FABDD9AA2EABF24A00E2341A /* QuotesViewe_MVVVMTests.xctest */,
-				FABDD9B42EABF24A00E2341A /* QuotesViewe_MVVVMUITests.xctest */,
+				FABDD99A2EABF24900E2341A /* QuotesViewer_MVVVM.app */,
+				FABDD9AA2EABF24A00E2341A /* QuotesViewer_MVVVMTests.xctest */,
+				FABDD9B42EABF24A00E2341A /* QuotesViewer_MVVVMUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FABDD9992EABF24900E2341A /* QuotesViewe_MVVVM */ = {
+		FABDD9992EABF24900E2341A /* QuotesViewer_MVVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FABDD9BE2EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewe_MVVVM" */;
+			buildConfigurationList = FABDD9BE2EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewer_MVVVM" */;
 			buildPhases = (
 				FABDD9962EABF24900E2341A /* Sources */,
 				FABDD9972EABF24900E2341A /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				FABDD99C2EABF24900E2341A /* QuotesViewe_MVVVM */,
 			);
-			name = QuotesViewe_MVVVM;
+			name = QuotesViewer_MVVVM;
 			packageProductDependencies = (
 			);
 			productName = QuotesViewe_MVVVM;
-			productReference = FABDD99A2EABF24900E2341A /* QuotesViewe_MVVVM.app */;
+			productReference = FABDD99A2EABF24900E2341A /* QuotesViewer_MVVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FABDD9A92EABF24A00E2341A /* QuotesViewe_MVVVMTests */ = {
+		FABDD9A92EABF24A00E2341A /* QuotesViewer_MVVVMTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FABDD9C12EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewe_MVVVMTests" */;
+			buildConfigurationList = FABDD9C12EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewer_MVVVMTests" */;
 			buildPhases = (
 				FABDD9A62EABF24A00E2341A /* Sources */,
 				FABDD9A72EABF24A00E2341A /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				FABDD9AD2EABF24A00E2341A /* QuotesViewe_MVVVMTests */,
 			);
-			name = QuotesViewe_MVVVMTests;
+			name = QuotesViewer_MVVVMTests;
 			packageProductDependencies = (
 			);
 			productName = QuotesViewe_MVVVMTests;
-			productReference = FABDD9AA2EABF24A00E2341A /* QuotesViewe_MVVVMTests.xctest */;
+			productReference = FABDD9AA2EABF24A00E2341A /* QuotesViewer_MVVVMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FABDD9B32EABF24A00E2341A /* QuotesViewe_MVVVMUITests */ = {
+		FABDD9B32EABF24A00E2341A /* QuotesViewer_MVVVMUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FABDD9C42EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewe_MVVVMUITests" */;
+			buildConfigurationList = FABDD9C42EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewer_MVVVMUITests" */;
 			buildPhases = (
 				FABDD9B02EABF24A00E2341A /* Sources */,
 				FABDD9B12EABF24A00E2341A /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				FABDD9B72EABF24A00E2341A /* QuotesViewe_MVVVMUITests */,
 			);
-			name = QuotesViewe_MVVVMUITests;
+			name = QuotesViewer_MVVVMUITests;
 			packageProductDependencies = (
 			);
 			productName = QuotesViewe_MVVVMUITests;
-			productReference = FABDD9B42EABF24A00E2341A /* QuotesViewe_MVVVMUITests.xctest */;
+			productReference = FABDD9B42EABF24A00E2341A /* QuotesViewer_MVVVMUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FABDD9952EABF24900E2341A /* Build configuration list for PBXProject "QuotesViewe_MVVVM" */;
+			buildConfigurationList = FABDD9952EABF24900E2341A /* Build configuration list for PBXProject "QuotesViewer_MVVVM" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FABDD9992EABF24900E2341A /* QuotesViewe_MVVVM */,
-				FABDD9A92EABF24A00E2341A /* QuotesViewe_MVVVMTests */,
-				FABDD9B32EABF24A00E2341A /* QuotesViewe_MVVVMUITests */,
+				FABDD9992EABF24900E2341A /* QuotesViewer_MVVVM */,
+				FABDD9A92EABF24A00E2341A /* QuotesViewer_MVVVMTests */,
+				FABDD9B32EABF24A00E2341A /* QuotesViewer_MVVVMUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		FABDD9AC2EABF24A00E2341A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FABDD9992EABF24900E2341A /* QuotesViewe_MVVVM */;
+			target = FABDD9992EABF24900E2341A /* QuotesViewer_MVVVM */;
 			targetProxy = FABDD9AB2EABF24A00E2341A /* PBXContainerItemProxy */;
 		};
 		FABDD9B62EABF24A00E2341A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FABDD9992EABF24900E2341A /* QuotesViewe_MVVVM */;
+			target = FABDD9992EABF24900E2341A /* QuotesViewer_MVVVM */;
 			targetProxy = FABDD9B52EABF24A00E2341A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotesViewe_MVVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuotesViewe_MVVVM";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotesViewer_MVVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuotesViewer_MVVVM";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotesViewe_MVVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuotesViewe_MVVVM";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotesViewer_MVVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuotesViewer_MVVVM";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FABDD9952EABF24900E2341A /* Build configuration list for PBXProject "QuotesViewe_MVVVM" */ = {
+		FABDD9952EABF24900E2341A /* Build configuration list for PBXProject "QuotesViewer_MVVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FABDD9BC2EABF24A00E2341A /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FABDD9BE2EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewe_MVVVM" */ = {
+		FABDD9BE2EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewer_MVVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FABDD9BF2EABF24A00E2341A /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FABDD9C12EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewe_MVVVMTests" */ = {
+		FABDD9C12EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewer_MVVVMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FABDD9C22EABF24A00E2341A /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FABDD9C42EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewe_MVVVMUITests" */ = {
+		FABDD9C42EABF24A00E2341A /* Build configuration list for PBXNativeTarget "QuotesViewer_MVVVMUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FABDD9C52EABF24A00E2341A /* Debug */,
