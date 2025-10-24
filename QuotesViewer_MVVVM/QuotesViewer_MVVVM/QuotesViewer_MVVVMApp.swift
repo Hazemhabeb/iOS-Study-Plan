@@ -11,7 +11,7 @@ import SwiftUI
 struct QuotesViewe_MVVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            QuotesListView()
+            QuotesListViewAsync()
         }
     }
 }
