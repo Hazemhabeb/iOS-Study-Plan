@@ -9,7 +9,7 @@ import XCTest
 @testable import DI_Practice
 
 final class DI_PracticeTests: XCTestCase {
-
+    
     func test_loadPosts_withMockData_succeeds() {
         //Arrage
         let mockService = MockNetworkService()
@@ -56,5 +56,29 @@ final class DI_PracticeTests: XCTestCase {
         }
         wait(for: [expect] ,timeout: 1.0)
     }
-
+    
+    func test_mock_injection_succeeds() {
+        let mockService = MockNetworkService()
+        let samplePosts = [
+            Post(userId: 1, id: 1, title: "mock title", body: "Mock body")
+        ]
+        let postResponse = PostResponse(posts: samplePosts, total: 1, skip: 1, limit: 1)
+        mockService.resultData = try! JSONEncoder().encode(postResponse)
+        
+        //Register mock instead of real network
+        AppAssembly.shared.registerMockDependencies(mockService)
+        
+        let vm = AppAssembly.shared.resolve(PostsViewModel.self)
+        let expect = expectation(description: "mock posts loaded")
+        
+        vm.loadPosts()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3){
+            XCTAssertEqual(vm.posts.count, 1)
+            XCTAssertEqual(vm.posts.first?.title, "mock title")
+            print("[MockInjection] success 💥")
+            expect.fulfill()
+        }
+        wait(for: [expect],timeout: 1)
+    }
 }

@@ -10,7 +10,9 @@ import SwiftUI
 @main
 struct DI_PracticeApp: App {
     // Use factory to create view model
-    @StateObject private var vm = DIContainer.makePostsViewModel()
+//    @StateObject private var vm = DIContainer.makePostsViewModel()
+    //Resolve ViewModel via Swinject
+    @StateObject private var vm = AppAssembly.shared.resolve(PostsViewModel.self)
     
     var body: some Scene {
         WindowGroup {

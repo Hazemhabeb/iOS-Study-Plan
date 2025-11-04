@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FABA44F12EB7F8BD003BA084 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = FABA44F02EB7F8BD003BA084 /* Swinject */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FABA44C12EB73D43003BA084 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABA44F12EB7F8BD003BA084 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +95,7 @@
 			);
 			name = DI_Practice;
 			packageProductDependencies = (
+				FABA44F02EB7F8BD003BA084 /* Swinject */,
 			);
 			productName = DI_Practice;
 			productReference = FABA44902EB73AA5003BA084 /* DI_Practice.app */;
@@ -146,6 +152,9 @@
 			);
 			mainGroup = FABA44872EB73AA5003BA084;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FABA44EF2EB7F8BD003BA084 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FABA44912EB73AA5003BA084 /* Products */;
 			projectDirPath = "";
@@ -444,6 +453,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FABA44EF2EB7F8BD003BA084 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FABA44F02EB7F8BD003BA084 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FABA44EF2EB7F8BD003BA084 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FABA44882EB73AA5003BA084 /* Project object */;
 }
