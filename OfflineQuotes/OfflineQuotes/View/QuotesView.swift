@@ -8,12 +8,7 @@
 import SwiftUI
 
 struct QuotesView : View {
-    @StateObject private var viewModel = QuotesViewModel(
-        repository:QuotesRepository(
-            network:NetworkService(),
-            cashe: CashManager<[Quote]>()
-        )
-    )
+    @StateObject private var viewModel = AppContainer.shared.container.resolve(QuotesViewModel.self)!
     
     var body: some View {
         NavigationView {
