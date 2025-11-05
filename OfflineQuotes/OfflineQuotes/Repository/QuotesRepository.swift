@@ -21,9 +21,19 @@ final class QuotesRepository {
             print("💥 loaded from cashe")
             return cashed
         }
-        let quotes = try await network.fetchQuotes()
-        cashe.save(quotes, for: casheKey)
-        print("📱 loaded from network & cahshed it ")
-        return quotes
+        
+        
+        do {
+            let quotes = try await network.fetchQuotes()
+            cashe.save(quotes, for: casheKey)
+            return quotes
+        } catch let urlError as URLError {
+            throw AppError.network
+        }catch let decodingError as DecodingError {
+            throw AppError.decoding
+        }catch {
+            throw AppError.unknow(error)
+        }
+       
     }
 }

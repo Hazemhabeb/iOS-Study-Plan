@@ -12,18 +12,32 @@ struct QuotesView : View {
     
     var body: some View {
         NavigationView {
-            List(viewModel.quotes) { quote in
-                VStack (alignment: .leading, spacing: 6) {
-                    Text(quote.text)
-                        .font(.headline)
-                    
-                    if let auther = quote.auther {
-                        Text(auther)
-                            .font(.subheadline)
-                            .foregroundStyle(.gray)
+            VStack {
+                if let error = viewModel.error {
+                    VStack(spacing: 10) {
+                        Text(error.localizedDescription)
+                            .foregroundColor(.red)
+                            .multilineTextAlignment(.center)
+                        Button("Retry") {
+                            viewModel.loadQuotes(forceRefresh: true)
+                        }
+                        .buttonStyle(.borderedProminent)
+                    }
+                } else {
+                    List(viewModel.quotes) { quote in
+                        VStack (alignment: .leading, spacing: 6) {
+                            Text(quote.text)
+                                .font(.headline)
+                            
+                            if let auther = quote.auther {
+                                Text(auther)
+                                    .font(.subheadline)
+                                    .foregroundStyle(.gray)
+                            }
+                        }
+                        .padding(.vertical,4)
                     }
                 }
-                .padding(.vertical,4)
             }
             .overlay{
                 if viewModel.isLoading {
@@ -32,10 +46,10 @@ struct QuotesView : View {
             }
             .navigationTitle("Offline Quotes")
             .refreshable {
-                await viewModel.loadQuotes(forceRefresh: true)
+                viewModel.loadQuotes(forceRefresh: true)
             }
-            .task {
-                await viewModel.loadQuotes()
+            .onAppear {
+                viewModel.loadQuotes()
             }
         }
     }
